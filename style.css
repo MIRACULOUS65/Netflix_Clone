@@ -13,7 +13,7 @@ body {
 
 .main {
     background-image: url("assets/image/background.jpg");
-    height: 100vh;
+    height: 90vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1000px, 100vw);
@@ -21,7 +21,7 @@ body {
 }
 
 .main .box {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     opacity: 0.69;
     background-color: black;
@@ -89,7 +89,11 @@ nav button {
 .btn {
     padding: 3px 8px;
     font-weight: bold;
-    background-color: white;
+    color: white;
+    background-color: rgba(229, 224, 224, 0.003);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-red {
@@ -98,24 +102,65 @@ nav button {
     font-size: 20px;
     border-radius: 4px;
     color: white;
+    font-weight: 400;
 }
 
 .btn-red-sm {
     background-color: red;
     color: white;
 }
-.main input{
+
+.main input {
     padding: 7px 50px 8px 14px;
     font-size: 20px;
     font-weight: 900;
     border-radius: 4px;
-    background-color: rgba(39,32,32,0.2);
+    background-color: rgba(39, 32, 32, 0.2);
     border: 1px solid rgb(244, 239, 239, 0.5);
 
 }
-.hero-buttons{
+
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
 }
+h2{
+    color: white;
+    font-size: medium;
+    position: relative;
+    padding-top: 10px;
+    font-size: 24px;
+    padding-left: 9%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.movie{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(229, 224, 224, 0.003);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+.movie-type
+{
+    margin-left: 1%;
+}
+.movie-place
+{
+    margin-left: 9%;
+}
+span{
+    color: white;
+    position: relative;
+    font-size: medium;
+    padding-top: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: 2px solid red;
+    }
