@@ -235,6 +235,8 @@ footer div{
 .footer-items{
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
+    row-gap: 10px;
 }
 .btn-footer{
     display: flex;
