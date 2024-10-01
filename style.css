@@ -148,6 +148,9 @@ h2 {
     cursor: pointer;
     position: relative;
 }
+.movie:hover{
+    background-color: rgb(183, 172, 172);
+}
 
 .movie-type {
     margin-left: 1%;
@@ -179,6 +182,7 @@ h2 {
     width: 300px;
     font-family: 'Martel Sans', sans-serif;
     background-color: rgba(16, 1, 25, 0.852);
+    cursor: pointer;
 
 }
 
@@ -187,7 +191,10 @@ h2 {
     padding-left: 9%;
     padding-right: 9%;
     gap: 15px;
-    cursor: pointer;
+}
+
+.reason:hover{
+    background-color: rgba(105, 8, 104, 0.652);
 }
 .faq{
     padding-left: 8.5%;
