@@ -92,7 +92,6 @@ Just open `index.html` in your browser. No extra setup required.
 
 **Sushovan Ghosh**  
 🎓 B.Tech CSE, Techno India University  
-💡 Web Developer | Front-End Enthusiast | Designer  
 🔗 [LinkedIn](https://www.linkedin.com/in/sushovan-ghosh)  
 💻 [GitHub](https://github.com/MIRACULOUS65)
 
